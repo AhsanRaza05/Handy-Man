@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FFFC33;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="75.0" layoutX="518.0" layoutY="17.0">
+               <image>
+                  <Image url="https://www.pinclipart.com/picdir/big/54-547972_handyman-bill-can-clipart.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="166.0" layoutY="7.0" prefHeight="71.0" prefWidth="330.0" text="-customer-" textFill="#1159e8">
+               <font>
+                  <Font name="Snap ITC" size="54.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="213.0" text="User name: ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="230.0" layoutY="304.0" text="Phone number:">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="259.0" text="Hometown:">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="257.0" layoutY="166.0" text="Password:">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="250.0" layoutY="119.0" text="Id: ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtId" layoutX="279.0" layoutY="117.0" prefHeight="25.0" prefWidth="241.0" />
+            <TextField fx:id="txtPassword" layoutX="339.0" layoutY="164.0" prefHeight="25.0" prefWidth="209.0" />
+            <TextField fx:id="txtUsernme" layoutX="320.0" layoutY="211.0" prefHeight="25.0" prefWidth="223.0" />
+            <TextField fx:id="txtHomeTown" layoutX="303.0" layoutY="257.0" prefHeight="25.0" prefWidth="217.0" />
+            <TextField fx:id="txtPhoneNo" layoutX="340.0" layoutY="302.0" prefHeight="25.0" prefWidth="205.0" />
+            <Line endX="100.0" layoutX="407.0" layoutY="91.0" startX="-214.0" />
+            <Line endX="-157.0" layoutX="485.0" layoutY="364.0" startX="-266.0" />
+            <Button layoutX="337.0" layoutY="352.0" mnemonicParsing="false" onAction="#CreateAccountActionMethod" prefHeight="25.0" prefWidth="121.0" text="Create account" />
+            <Line endX="-135.0" layoutX="706.0" layoutY="364.0" startX="-241.0" />
+            <ImageView fitHeight="272.0" fitWidth="210.0" layoutX="14.0" layoutY="100.0">
+               <image>
+                  <Image url="https://www.pinclipart.com/picdir/big/36-364723_people-icon-png-3d-clipart.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
